@@ -4,7 +4,11 @@
 
 ## Install Heroku and Git
 
-[Source](https://devcenter.heroku.com/categories/python-support)
+[Source for Heroku](https://devcenter.heroku.com/categories/python-support)
+[Source for Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+[First time Git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+
+
 After installing Heroku and Git, and creating an account on Heroku, use the command line and login on Heroku to see if everything works correcly:
 
 ```
