@@ -51,10 +51,10 @@ git commit -m "Deployment commit"
 git push heroku master 
 ```
 Where:
-- Heroku login
-- Heroku
-- Git commit
-- Git push
+- Heroku login logins into your Heroku account
+- ```heroku git:remote -a NAME_OF_YOUR_HEROKU_APP``` is an Heroku shortcut to link a folder with an existing Heroku app;
+- Git commit records changes to the repository
+- Git push is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.
 
 ## Why doesn't it work?
 If something is not working, use Heroku logs:
@@ -80,6 +80,7 @@ Besides writing to me, there are more than one ways to find help online:
 - There are other ways of deploying an application on Heroku. For instance, it is possible to put all the files on Github and do the deployment on the Heroku online dashboard. Likewise, it is possible to do everything without touching the Heroku dashboard. This example is an intermediate way between the two;
 - Heroku is not a free application. This means you get up to five apps for each account;
 - You can make changes to your files, of course, but it's important that you always commit the changes you made and push them again;
+- If feel like you need to know more about Git, [this is a useful resource](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 - Sometimes Heroku doesn't accept certain versions of Python or certain versions of libraries. This is why you should always read the documentation and make changes based on what is currently supported.
 
 
